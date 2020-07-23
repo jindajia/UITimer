@@ -24,7 +24,7 @@
     UIWindowScene *windwowScene = (UIWindowScene *)scene;
     self.window = [[UIWindow alloc] initWithWindowScene:windwowScene];
     ViewController *uv = [[ViewController alloc] init];
-    uv.view.backgroundColor = [UIColor blackColor];
+    uv.view.backgroundColor = [UIColor redColor];
     self.window.rootViewController = uv;
     [self.window makeKeyAndVisible];
 }
